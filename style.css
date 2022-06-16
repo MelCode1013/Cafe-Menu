@@ -1,0 +1,139 @@
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1587734195503-904fca47e0e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    padding: 20px;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: italic;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+.menu {
+    width: 80%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 4px 2px 8px -3px rgba(0, 0, 0, 0.95);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon {
+    height:50px;
+    width: auto;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.flavor,
+.dessert {
+    text-align: left;
+    width: 74%;
+}
+
+.price {
+    text-align: right;
+    width: 24%;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
+
+.credit {
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+   
+}
+
+footer div {
+    margin-top: 10px;
+}
+
+address {
+    display: flex;
+    justify-content: center;;
+}
+
+@media screen and (min-width: 760px) {
+    .flavor,
+        .dessert {
+            text-align: left;
+            padding-left: 75px;
+        }
+    
+        .price {
+            text-align: right;
+            width: 0;
+         
+        }
+    
+}
